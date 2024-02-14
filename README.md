@@ -1,7 +1,7 @@
 # Introduction to VB Document
 Welcoming Form
 
-Name: *SAJJAD ABDIRAHIM GEDOW *
+Name: SAJJAD ABDIRAHIM GEDOW
 
 Reg. No: *SCT211-0065/2022*
 
