@@ -5,7 +5,6 @@
     End Sub
 
     Private Sub LoadObjectButtonClick(sender As Object, e As EventArgs) Handles LoadObjectDemoButton.Click
-        Me.Hide()
 
         Dim frmObjectDemo As New ObjectDemonstrationsForm
 
