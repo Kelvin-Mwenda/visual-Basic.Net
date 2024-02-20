@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
-Partial Class Form1
+Partial Class WelcomingForm
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -22,10 +22,50 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        components = New System.ComponentModel.Container()
-        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 450)
-        Me.Text = "Form1"
+        btnLoadObjectDemo = New Button()
+        btnExit = New Button()
+        SuspendLayout()
+        ' 
+        ' btnLoadObjectDemo
+        ' 
+        btnLoadObjectDemo.Font = New Font("Times New Roman", 12F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        btnLoadObjectDemo.Location = New Point(133, 288)
+        btnLoadObjectDemo.Margin = New Padding(4, 3, 4, 3)
+        btnLoadObjectDemo.Name = "btnLoadObjectDemo"
+        btnLoadObjectDemo.Size = New Size(370, 58)
+        btnLoadObjectDemo.TabIndex = 0
+        btnLoadObjectDemo.Text = "&Loading Object Demo"
+        btnLoadObjectDemo.TextAlign = ContentAlignment.MiddleLeft
+        btnLoadObjectDemo.UseVisualStyleBackColor = True
+        ' 
+        ' btnExit
+        ' 
+        btnExit.Font = New Font("Times New Roman", 12F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        btnExit.Location = New Point(537, 288)
+        btnExit.Margin = New Padding(4, 3, 4, 3)
+        btnExit.Name = "btnExit"
+        btnExit.Size = New Size(370, 58)
+        btnExit.TabIndex = 1
+        btnExit.Text = "E&XIT"
+        btnExit.TextAlign = ContentAlignment.MiddleLeft
+        btnExit.UseVisualStyleBackColor = True
+        ' 
+        ' WelcomingForm
+        ' 
+        AutoScaleDimensions = New SizeF(13F, 27F)
+        AutoScaleMode = AutoScaleMode.Font
+        ClientSize = New Size(1040, 486)
+        Controls.Add(btnExit)
+        Controls.Add(btnLoadObjectDemo)
+        Font = New Font("Times New Roman", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        Margin = New Padding(4, 3, 4, 3)
+        Name = "WelcomingForm"
+        Tag = "btnExit"
+        Text = "Welcoming Form"
+        ResumeLayout(False)
     End Sub
+
+    Friend WithEvents btnLoadObjectDemo As Button
+    Friend WithEvents btnExit As Button
 
 End Class
