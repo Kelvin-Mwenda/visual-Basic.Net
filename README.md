@@ -1,9 +1,9 @@
 # Introduction to VB Document
 Welcoming Form
 
-Name: SAJJAD ABDIRAHIM GEDOW
+Name: KELVIN MWENDA DOREEN
 
-Reg. No: *SCT211-0065/2022*
+Reg. No: *SCT211-0062/2022*
 
 B.SC Computer Science
 
